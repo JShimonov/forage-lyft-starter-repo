@@ -1,9 +1,7 @@
-from abc import ABC
-
-from car import Car
+from engine.engine import Engine
 
 
-class SternmanEngine(Car, ABC):
+class SternmanEngine(Engine):
     def __init__(self, indicator_light):
         self.indicator_light = indicator_light
 
