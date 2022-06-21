@@ -10,5 +10,4 @@ class SternmanEngine(Car, ABC):
     def engine_should_be_serviced(self):
         if self.indicator_light:
             return True
-        else:
-            return False
+        return False
